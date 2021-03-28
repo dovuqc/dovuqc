@@ -16,7 +16,7 @@ public class ImageReader {
                     .field("filetype", "png")
                     .field("base64image", "data:image/png;base64")
                     .field("file", new File(pathName))
-                    .field("apikey", "33fbcb71a188957")
+                    .field("apikey", "184007c35a88957")
                     .field("OCREngine", "2")
                     .asJson();
         } catch (UnirestException e) {

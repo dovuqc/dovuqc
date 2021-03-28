@@ -80,7 +80,7 @@ public class CalculatorSteps {
             BufferedImage croppedImage = bufferedImage.getSubimage(0, 0, 399, 70);
             ImageIO.write(croppedImage, "png", new File(filePath));
 
-            //Read text from image with ORC Space
+            //Read text from image with OCR Space API
             actualResult = ImageReader.getText(filePath);
         } catch (IOException e) {
             e.printStackTrace();
@@ -116,7 +116,7 @@ public class CalculatorSteps {
             BufferedImage croppedImage = bufferedImage.getSubimage(0, 0, 399, 70);
             ImageIO.write(croppedImage, "png", new File(filePath));
 
-            //Read text from image with ORC Space
+            //Read text from image with OCR Space API
             actualResult = ImageReader.getText(filePath);
         } catch (IOException e) {
             e.printStackTrace();

@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(plugin = {"pretty", "json:target/jsonReports/cucumber.json"},
         features = {"target/test-classes/features"},
         glue = {"stepdefs"},
+//        tags = "@test",
         monochrome = true)
 public class CalculatorTest {
 }
